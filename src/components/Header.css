@@ -1,0 +1,14 @@
+.header {
+	background-color: white;
+	padding: 0 10px;
+	margin: 0;
+	border-bottom: 1px solid;
+}
+
+.header-logo {
+	object-fit: contain !important;
+	width: 120px;
+	height: 100px;
+	position: relative;
+	margin: 0;
+}
