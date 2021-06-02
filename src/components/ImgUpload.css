@@ -1,0 +1,24 @@
+.img-upload {
+	display: flex;
+	max-width: 720px;
+	flex-direction: column;
+	width: 90%;
+	padding: 5px;
+	margin-left: 15px;
+	/* margin-right: auto;  */
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	color: steelblue;
+}
+.file-input {
+	height: 25px;
+}
+.inp {
+	font-size: 10px;
+	align-items: center;
+}
+.imgupload-progress {
+	width: 100%;
+	height: 25px;
+}

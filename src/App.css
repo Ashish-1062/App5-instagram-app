@@ -4,4 +4,37 @@
 .app {
 	background-color: #fafafa;
 	height: 100vh;
+	align-items: center;
+	margin: 5px;
+	padding-bottom: 5px;
+}
+.app-signup {
+	max-width: 720px;
+	display: flex;
+	flex-direction: column;
+}
+.applog-btn {
+	margin: 1px;
+	color: #fafafa;
+	max-width: 720px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid lightgray;
+	border-radius: 50px !important;
+}
+.appsign-btns {
+	max-width: 720px;
+	display: flex;
+	margin-top: 1px;
+	border: none !important;
+}
+.sin-btn {
+	flex: 2 !important;
+	border: 1px solid black !important;
+	border-radius: 50px !important;
+}
+.sout-btn {
+	flex: 1 !important;
+	border: 1px solid black !important;
+	border-radius: 50px !important;
 }

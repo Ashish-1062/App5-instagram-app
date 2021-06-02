@@ -1,3 +1,46 @@
+.post {
+	max-width: 720px;
+	background-color: white;
+	border: 1px solid lightgray;
+	padding: 2px;
+	margin: 0 0 20px 0;
+}
 .post-img {
 	width: 100%;
+	object-fit: contain;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+.post-text {
+	font-weight: normal;
+	padding: 10px;
+}
+.post-header {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.post-avatar {
+	margin-right: 10px;
+}
+
+.post-cmtBox {
+	display: flex;
+	margin-top: 10px;
+}
+
+.post-input {
+	flex: 2;
+	border: none;
+	padding: 10px;
+	border: 1px solid black !important;
+	border-radius: 5px;
+}
+.post-btn {
+	flex: 0.2;
+	border: none;
+	color: #6082a3;
+	background-color: transparent;
+	border: 1px solid black !important;
+	border-radius: 5px;
 }

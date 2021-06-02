@@ -1,0 +1,10 @@
+.story-avatar {
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+	size: 400px;
+}
+.post-avatar {
+	font-size: large;
+	shape-image-threshold: 1;
+}
